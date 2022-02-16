@@ -6,7 +6,7 @@ import time
 
 fluidsynth.init('sf2/FluidR3_GM.sf2')
 
-with open('songs/My-Castle-Town.txt') as f:
+with open('songs/Mary-Had-A-Little-Lamb.txt') as f:
     data = f.read()
 
 data = data.split(' ')
