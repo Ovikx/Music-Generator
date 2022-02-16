@@ -1,0 +1,2 @@
+# Piano Music Generator
+This is an LSTM recurrent neural network that generates sequences of piano notes. It is trained on the transcribed songs in the `songs` folder. Since I haven't transcribed a lot of music, the model eventually starts consistently generating the same sequences of notes. The more random samples occur near the beginning of training. I believe this can be fixed if I just put more transcribed music into the training dataset since the data distribution will be larger.
