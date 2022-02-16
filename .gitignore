@@ -1,2 +1,4 @@
 sf2/
 *.dll
+generated_songs/
+__pycache__/
